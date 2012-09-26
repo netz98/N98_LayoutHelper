@@ -11,7 +11,7 @@
  * @copyright  Copyright (c) 2012 netz98 new media GmbH (http://www.netz98.de)
  * @author netz98 new media GmbH <info@netz98.de>
  * @category N98
- * @package N98_{$module}
+ * @package N98_LayoutHelper
  */
 
 /**
