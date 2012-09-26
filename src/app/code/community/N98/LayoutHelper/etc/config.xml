@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <N98_LayoutHelper>
+            <version>0.0.1</version>
+        </N98_LayoutHelper>
+    </modules>
+    <global>
+        <blocks>
+            <page>
+                <rewrite>
+                    <html_head>N98_LayoutHelper_Block_Page_Html_Head</html_head>
+                </rewrite>
+            </page>
+            <customer>
+                <rewrite>
+                    <account_navigation>N98_LayoutHelper_Block_Customer_Account_Navigation</account_navigation>
+                    <widget_name>N98_LayoutHelper_Block_Customer_Widget_Name</widget_name>
+                </rewrite>
+            </customer>
+            <catalog>
+                <rewrite>
+                    <product_view_media>N98_LayoutHelper_Block_Catalog_Product_View_Media</product_view_media>
+                </rewrite>
+            </catalog>
+            <sales>
+                <rewrite>
+                    <order_info>N98_LayoutHelper_Block_Sales_Order_Info</order_info>
+                </rewrite>
+            </sales>
+        </blocks>
+    </global>
+</config>

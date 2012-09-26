@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <N98_LayoutHelper>
+            <codePool>community</codePool>
+            <active>true</active>
+            <depends>
+                <Mage_Core />
+                <Mage_Customer />
+                <Mage_Page />
+            </depends>
+        </N98_LayoutHelper>
+    </modules>
+</config>
