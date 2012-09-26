@@ -3,7 +3,7 @@ N98_LayoutHelper Magento Module
 
 Example: Add CSS file at begin
 
-.. code-block: xml
+.. code: xml
 
     <reference name="head">
         <action method="addCss">
