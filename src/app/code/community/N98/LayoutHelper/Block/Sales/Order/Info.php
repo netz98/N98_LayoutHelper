@@ -11,7 +11,7 @@
  * @copyright  Copyright (c) 2012 netz98 new media GmbH (http://www.netz98.de)
  * @author netz98 new media GmbH <info@netz98.de>
  * @category N98
- * @package N98_Sales
+ * @package N98_LayoutHelper
  */
 
 /**
@@ -19,7 +19,7 @@
  *
  * @author netz98 new media GmbH <info@netz98.de>
  * @category N98
- * @package N98_Sales
+ * @package N98_LayoutHelper
  */
 class N98_LayoutHelper_Block_Sales_Order_Info extends Mage_Sales_Block_Order_Info
 {
