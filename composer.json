@@ -5,7 +5,7 @@
     "description": "Helpful methods to be called in layout actions to allow more customizations via local.xml without touching the original layout files.",
     "homepage": "https://github.com/netz98/N98_LayoutHelper",
     "require": {
-        "magento-hackathon/magento-composer-installer": "dev-master"
+        "magento-hackathon/magento-composer-installer": "*"
     },
     "authors":[
         {
