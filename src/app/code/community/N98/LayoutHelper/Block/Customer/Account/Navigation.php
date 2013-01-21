@@ -24,6 +24,15 @@
 class N98_LayoutHelper_Block_Customer_Account_Navigation extends Mage_Customer_Block_Account_Navigation
 {
     /**
+     * Set the original module name avoid breaking translations
+     */
+    public function __construct()
+    {
+        parent::__construct();
+        $this->setModuleName('Mage_Customer');
+    }
+
+    /**
      * Remove a link
      *
      * @param $name Name of the link

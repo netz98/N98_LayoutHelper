@@ -23,6 +23,16 @@
  */
 class N98_LayoutHelper_Block_Page_Html_Head extends Mage_Page_Block_Html_Head
 {
+
+    /**
+     * Set the original module name avoid breaking translations
+     */
+    public function __construct()
+    {
+        parent::__construct();
+        $this->setModuleName('Mage_Page');
+    }
+
     /**
      * Functionality @see Mage_Page_Block_Html_Head
      * Adds to parameters to influence the ordering

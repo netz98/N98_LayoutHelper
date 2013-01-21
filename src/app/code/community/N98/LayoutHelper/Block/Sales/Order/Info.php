@@ -23,6 +23,16 @@
  */
 class N98_LayoutHelper_Block_Sales_Order_Info extends Mage_Sales_Block_Order_Info
 {
+
+    /**
+     * Set the original module name avoid breaking translations
+     */
+    public function __construct()
+    {
+        parent::__construct();
+        $this->setModuleName('Mage_Sales');
+    }
+
     /**
      * Remove Link
      */
