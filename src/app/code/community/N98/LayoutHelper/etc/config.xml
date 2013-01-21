@@ -15,7 +15,6 @@
             <customer>
                 <rewrite>
                     <account_navigation>N98_LayoutHelper_Block_Customer_Account_Navigation</account_navigation>
-                    <widget_name>N98_LayoutHelper_Block_Customer_Widget_Name</widget_name>
                 </rewrite>
             </customer>
             <catalog>
