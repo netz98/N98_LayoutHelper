@@ -36,6 +36,7 @@ class N98_LayoutHelper_Block_Customer_Account_Navigation extends Mage_Customer_B
      * Remove a link
      *
      * @param $name Name of the link
+     * @return \N98_LayoutHelper_Block_Customer_Account_Navigation
      */
     function removeLink($name)
     {
