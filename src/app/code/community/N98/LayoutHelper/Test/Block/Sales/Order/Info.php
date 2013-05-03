@@ -46,6 +46,7 @@ class N98_LayoutHelper_Test_Block_Sales_Order_Info extends EcomDev_PHPUnit_Test_
     public function setUp()
     {
         parent::setUp();
+
         $infoBlock = $this->getBlockMock('payment/info');
         $paymentHelperMock = $this->getHelperMock('payment/data', array('getInfoBlock'));
 
@@ -55,7 +56,10 @@ class N98_LayoutHelper_Test_Block_Sales_Order_Info extends EcomDev_PHPUnit_Test_
 
         $this->replaceByMock('helper', 'payment', $paymentHelperMock);
 
-        $orderMock = $this->getModelMock('sales/order', array('hasShipments', 'hasCreditmemos'));
+        $payment = $this->getModelMock('sales/order_payment');
+
+        $orderMock = $this->getModelMock('sales/order', array('hasShipments', 'hasCreditmemos', 'getPayment'));
+        $orderMock->expects($this->any())->method('getPayment')->will($this->returnValue($payment));
 
         Mage::register('current_order', $orderMock);
     }
