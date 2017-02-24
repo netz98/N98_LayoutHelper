@@ -1,5 +1,5 @@
 {
-    "name": "n98/N98_LayoutHelper",
+    "name": "n98/n98_layouthelper",
     "license": "OSL-3.0",
     "type": "magento-module",
     "description": "Helpful methods to be called in layout actions to allow more customizations via local.xml without touching the original layout files.",
