@@ -10,6 +10,7 @@
             <page>
                 <rewrite>
                     <html_head>N98_LayoutHelper_Block_Page_Html_Head</html_head>
+                    <html_breadcrumbs>N98_LayoutHelper_Block_Page_Html_Breadcrumbs</html_breadcrumbs>
                 </rewrite>
             </page>
             <customer>

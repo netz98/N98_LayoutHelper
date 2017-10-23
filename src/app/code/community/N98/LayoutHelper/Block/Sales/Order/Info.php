@@ -34,11 +34,14 @@ class N98_LayoutHelper_Block_Sales_Order_Info extends Mage_Sales_Block_Order_Inf
     }
 
     /**
-     * Remove Link
+     * Remove a link
+     *
+     * @param string $name Name of the link
+     * @return \N98_LayoutHelper_Block_Sales_Order_Info
      */
     public function removeLink($name)
     {
-        if(isset($this->_links[$name])){
+        if (isset($this->_links[$name])) {
             unset($this->_links[$name]);
         }
         return $this;
